@@ -1,0 +1,165 @@
+
+{
+	"members":[
+		{
+			"firstName":"Jay",
+			"lastName":"Place",
+			"memberId":"1234"
+		},
+		{
+			"firstName":"Ed",
+			"lastName":"Smith",
+			"memberId":"5678"
+		}
+	],
+	"clubs":[
+		{
+			"id":"001",
+			"name":"Sarasota YMCA Sharks Masters",
+			"abbr":"SYSM",
+			"address":"8301 Potter Park Dr.",
+			"city":"Sarasota",
+			"state":"FL",
+			"zip":"34238",
+			"isGold":"true",
+			"hasCoach":"true",
+			"hasALTS":"true"
+		},
+		{
+			"id":"002",
+			"name":"Sarasota Tsunami Masters",
+			"abbr":"FLSSA",
+			"address":"2650 Waldemere St.",
+			"city":"Sarasota",
+			"state":"FL",
+			"zip":"34239",
+			"isGold":"true",
+			"hasCoach":"true",
+			"hasALTS":"true"
+		},
+		{
+			"id":"003",
+			"name":"AMI Open Water Club",
+			"abbr":"",
+			"address":"Manatee Ave & Gulf Drive",
+			"city":"Holmes Beach",
+			"state":"FL",
+			"zip":"34218",
+			"isGold":"false",
+			"hasCoach":"false",
+			"hasALTS":"false"
+		}
+	],
+	"locations":[
+		{
+			"id":"123",
+			"name":"Sarasota YMCA - Evalyn Sadlier Jones Branch",
+			"poolType":[
+				{
+					"indoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":""
+						},
+					"outdoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":""
+						}
+					
+				}
+			]
+		},
+		{
+			"id":"456",
+			"name":"Arlington Park Pool",
+			"poolType":[
+				{
+					"indoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":""
+						},
+					"outdoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":""
+						}
+					
+				}
+			]
+		},
+		{
+			"id":"789",
+			"name":"Manatee Public Beach",
+			"poolType":[
+				{
+					"indoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":""
+						},					
+					"outdoor":
+						{
+							"50meter":"true",
+							"25meter":"false",
+							"25yard":"false",
+							"other":"true",
+							"other_desc":"Ichetucknee Springs State Park"
+						}
+					
+				}
+			]
+		}
+	],
+	"swimmers":[
+		{
+			"id":"Gator",
+			"nameFirst":"Kyle",
+			"nameLast":"Deery",
+			"isCurrentMember":"true",	
+			"isCoachLevel1":"false",
+			"isCoachLevel2":"false",
+			"isCoachLevel3":"false",
+			"isCoachLevel4":"false",
+			"isALTS":"false"
+		},
+		{
+			"id":"1943",
+			"nameFirst":"John",
+			"nameLast":"Smith",
+			"isCurrentMember":"true",	
+			"isCoachLevel1":"true",
+			"isCoachLevel2":"true",
+			"isCoachLevel3":"true",
+			"isCoachLevel4":"true",
+			"isALTS":"false"
+		},
+		{
+			"id":"1234",
+			"nameFirst":"Sue",
+			"nameLast":"Baker",
+			"isCurrentMember":"true",	
+			"isCoachLevel1":"false",
+			"isCoachLevel2":"false",
+			"isCoachLevel3":"false",
+			"isCoachLevel4":"false",
+			"isALTS":"true"
+		}
+	]
+}
